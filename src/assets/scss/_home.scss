@@ -1,0 +1,26 @@
+.home {
+    .title{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .search-bar {
+        margin-bottom: 20px;
+    }
+    .filter-price {
+        margin-bottom: 20px;
+    }
+    .category-filter{
+        margin-bottom: 20px;
+    }
+    .card{
+        margin: auto;
+        padding: 10px;
+        .card-grid{
+            margin-top: 20px;
+            .ant-card-grid-hoverable {
+                width: 20%;
+                text-align: center;
+            }
+        }
+    }
+}
