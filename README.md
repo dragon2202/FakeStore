@@ -6,6 +6,10 @@ npx create-react-app my-app
 npm i (antd, node-sass, react-router-dom,sass-loader)
 </br>
 npm start
+</br>
+</br>
+If that don't work, fret not because I deployed it on heroku
+</br>
 
 ### Details
 I decided to use a single page, as I didn't see the need to use more than one. 
