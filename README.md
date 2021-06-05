@@ -23,7 +23,9 @@ In the SearchFilterMap function, I chose to prioritze certain functions primaril
 </br>
 Sort is first priority because I want to sort the products instead of filter, or search before sort. 
 </br>
-The reason I did it this way is because if you reset the filter or search I want the products to be sorted. I didn't want to filter than sort, as reversing the filter would return a partial sorted list of products.
+The reason I did it this way is because if you reset the filter or search I wanted the products to be sorted.
+</br>
+I didn't want to users to filter than sort, as reversing the filter would return a partial sorted list of products.
 </br>
 Search, category filter, product filter in second, third, and fourth. I don't think it would matter to change priorties as they are meant to coexist.
 
