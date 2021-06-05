@@ -10,7 +10,7 @@ npm start
 </br>
 If that don't work, fret not because I deployed it on heroku
 </br>
-
+https://fakestoredemo.herokuapp.com/
 ### Details
 I decided to use a single page, as I didn't see the need to use more than one. 
 </br>
