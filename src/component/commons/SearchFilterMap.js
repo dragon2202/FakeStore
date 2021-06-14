@@ -167,7 +167,6 @@ export default function SearchFilterMapComponent(props) {
                     Filter by Category
                 </Title>
                 <p>Choose the category that you want to filter by, all categories that don't match will be missing</p>
-                <p>Note: These functions work together, so you can filter by category and sort, or partial search and filter by price. It works with all the functions.</p>
 
                 <div className="category-filter">
                     <Dropdown overlay={menu(props.data)}>
@@ -193,7 +192,9 @@ export default function SearchFilterMapComponent(props) {
                             } <DownOutlined />
                         </button>
                 </Dropdown>
-
+                
+                <p>Note: These functions work together, so you can filter by category and sort, or partial search and filter by price. It works with all the functions.</p>
+                
                 <Card className="card-grid" title="Card Title">
                     {SearchFilterMap(props.data, searchParam, minNum, maxNum, selectedCategory)}
                 </Card>
